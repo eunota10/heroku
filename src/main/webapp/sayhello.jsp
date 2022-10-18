@@ -10,11 +10,7 @@ Autor     : Anderson Reis
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
-        <title>SayHello.jsp</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+    <jsp:include page="head.html"></jsp:include>
     <body>
         <jsp:include page="header.html"></jsp:include>
         <jsp:useBean id="myBean" class="hello.MessageBean"/>
