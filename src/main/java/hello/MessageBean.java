@@ -14,6 +14,8 @@ import java.io.Serializable;
  *
  * @author viter
  */
+
+ 
 public class MessageBean implements Serializable {
      
     private String aut;
