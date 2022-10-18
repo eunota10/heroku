@@ -32,7 +32,7 @@ public class MessageBean implements Serializable {
     }
 
     public String getAut1() {
-        return "José Viterbo";
+        return "Anderson Reis";
     }
     
     public void setLang(String value) {
