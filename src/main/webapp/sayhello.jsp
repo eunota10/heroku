@@ -20,8 +20,9 @@ Autor     : Anderson Reis
         <% String lang = request.getParameter("lang"); %>
         <h2><jsp:setProperty name="myBean" property="lang" value="<%=lang%>"/>
         <jsp:getProperty name="myBean" property="msg"/>, <%=request.getParameter("nome")%>!</h2>
-        <jsp:getProperty name="myBean" property="msg2"/> <jsp:getProperty name="myBean" property="aut"/><br>
-        <jsp:getProperty name="myBean" property="msg3"/> <jsp:getProperty name="myBean" property="aut1"/>
+        <hr>
+        <p><jsp:getProperty name="myBean" property="msg2"/> <jsp:getProperty name="myBean" property="aut"/></p><br>
+        <p><jsp:getProperty name="myBean" property="msg3"/> <jsp:getProperty name="myBean" property="aut1"/></p>
         <jsp:include page="footer.html"></jsp:include>
     </body>
 </html>
