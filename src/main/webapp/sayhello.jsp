@@ -21,6 +21,7 @@ Autor     : Anderson Reis
         <h2><jsp:setProperty name="myBean" property="lang" value="<%=lang%>"/>
         <jsp:getProperty name="myBean" property="msg"/>, <%=request.getParameter("nome")%>!</h2>
         <jsp:getProperty name="myBean" property="msg2"/> <jsp:getProperty name="myBean" property="aut"/>
+        <jsp:getProperty name="myBean" property="msg3"/> <jsp:getProperty name="myBean" property="aut"/>
         <jsp:include page="footer.html"></jsp:include>
     </body>
 </html>

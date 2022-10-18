@@ -17,14 +17,21 @@ import java.io.Serializable;
 public class MessageBean implements Serializable {
      
     private String aut;
+    private String aut1;
+    
     private String lang;
     private String msg;
     private String msg2;
+    private String msg3;
         
     public MessageBean() {
     }
     
     public String getAut() {
+        return "José Viterbo";
+    }
+
+    public String getAut1() {
         return "José Viterbo";
     }
     
@@ -44,6 +51,7 @@ public class MessageBean implements Serializable {
         }
         return "";
     }
+
     public String getMsg2() {
         switch (this.lang){
             case "pt":
@@ -54,6 +62,20 @@ public class MessageBean implements Serializable {
                 return "Erstellt von";
             case "fr":
                 return "Créé par";
+        }
+        return "";
+    }
+
+    public String getMsg3() {
+        switch (this.lang){
+            case "pt":
+                return "Alterado por";
+            case "en":
+                return "Changed by";
+            case "de":
+                return "Geändert von";
+            case "fr":
+                return "Modifié par";
         }
         return "";
     }
