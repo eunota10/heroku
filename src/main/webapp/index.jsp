@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Anderson</title>
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-    </head>
+<html>
+    
+    <jsp:include page="heade.html"></jsp:include>
+
+
     <body>
         <jsp:include page="header.html"></jsp:include>
 
