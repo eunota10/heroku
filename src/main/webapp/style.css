@@ -1,1 +1,17 @@
 body {background-color: azure;}
+
+header {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    background-color: black;
+
+}
+
+header h1 {
+    color: blanchedalmond;
+}
+
+h1 {
+    color: black;
+}
